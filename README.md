@@ -12,21 +12,21 @@ A Principal referência usada para esse projeto é através do vídeo do lançam
 classDiagram
   class ReprodutorMusical
   <<interface>> ReprodutorMusical
-  Reprodutor Musical : tocar()
-  Reprodutor Musical : pausar()
-  Reprodutor Musical : selecionarMusica(String musica)
+  Reprodutor Musical : tocar() void
+  Reprodutor Musical : pausar() void
+  Reprodutor Musical : selecionarMusica(String musica) void
 
   class NavegadorInternet
   <<interface>> NavegadorInternet
-  NavegadorInternet : exibirPagina(String url)
-  NavegadorInternet : adicionarNovaAba()
-  NavegadorInternet : atualizarPagina()
+  NavegadorInternet : exibirPagina(String url) void
+  NavegadorInternet : adicionarNovaAba() void
+  NavegadorInternet : atualizarPagina() void
 
   class AparelhoTelefonico
   <<interface>> AparelhoTelefonico
-  AparelhoTelefonico : ligar(String numero)
-  AparelhoTelefonico : atender()
-  AparelhoTelefonico : iniciarCorreioVoz()
+  AparelhoTelefonico : ligar(String numero) void
+  AparelhoTelefonico : atender() void
+  AparelhoTelefonico : iniciarCorreioVoz() void
   
   class iPhone
 
